@@ -1,0 +1,3 @@
+*.exe
+#ejemplodatagrid/bin/Debug/*.*
+#ejemplodatagrid/obj/Debug/*.*

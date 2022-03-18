@@ -1,0 +1,5 @@
+C:\Users\Docente\Documents\SharpDevelop Projects\proyecto1_poo\proyecto1_poo\bin\Debug\proyecto1_poo.exe
+C:\Users\Docente\Documents\SharpDevelop Projects\proyecto1_poo\proyecto1_poo\bin\Debug\proyecto1_poo.pdb
+C:\Users\Docente\Documents\SharpDevelop Projects\proyecto1_poo\proyecto1_poo\obj\Debug\proyecto1_poo.vbprojResolveAssemblyReference.cache
+C:\Users\Docente\Documents\SharpDevelop Projects\proyecto1_poo\proyecto1_poo\obj\Debug\proyecto1_poo.exe
+C:\Users\Docente\Documents\SharpDevelop Projects\proyecto1_poo\proyecto1_poo\obj\Debug\proyecto1_poo.pdb
