@@ -8,8 +8,11 @@
 '
 Public Class clsPersona
 	private _nombre as string
-	private nombreValue as string
-	private _edad as integer
+	Private _edad As Integer
+	Sub New(n As String , e As Integer) 'act1
+		Me._nombre=n
+		Me._edad=e
+	End Sub
 	public property edad as integer
 		set (value as integer)
 			me._edad=value

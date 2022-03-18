@@ -10,6 +10,7 @@ Public Class clsCarrera
 	Private _clave As String
 	Private _nombre As String 
 	Private listaMaterias As New List(Of clsMateria)
+	Private listaAlumnos As New List(Of clsAlumno) 'act1
 	Sub New(clave As String , nombre As String )
 		Me._clave=clave
 		Me._nombre=nombre
@@ -36,5 +37,15 @@ Public Class clsCarrera
 			console.writeline("materia {0} con clave {1}",materia.nombre, materia.clave)
 		next
 	End Sub
-	
+	Public Function cuantosAlumnosHay() As Integer 'act1
+		Return Me.listaAlumnos.Count
+	End Function
+	Public Sub agregarAlumno(a As clsAlumno) 'act1
+		Me.listaAlumnos.Add(a)
+	End Sub
+	Public Sub muestraAlumnos() 'act1
+		For Each alumno As clsAlumno In Me.listaAlumnos
+			console.writeline("alumno {0} con matricula {1}",alumno.nombre, alumno.matricula)
+		next
+	End Sub
 End Class
