@@ -31,7 +31,11 @@ Module Program
 		isc.agregarAlumno(alumno)
 
 		isc.muestraAlumnos()
-		Console.WriteLine("hay {0} alumnos en la carrera {1}",isc.cuantosAlumnosHay(), isc.nombre)		
+		Console.WriteLine("hay {0} alumnos en la carrera {1}",isc.cuantosAlumnosHay(), isc.nombre)
+		
+		'buscar alumno
+		isc.buscaAlumno("191023")
+		isc.buscaAlumno("191000")
 		Console.ReadKey(True)
 	End Sub
 End Module

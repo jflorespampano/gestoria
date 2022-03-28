@@ -48,4 +48,18 @@ Public Class clsCarrera
 			console.writeline("alumno {0} con matricula {1}",alumno.nombre, alumno.matricula)
 		next
 	End Sub
+	Public Function buscaAlumno(matricula As String) As Boolean
+		Dim esta As Boolean=False
+		Console.WriteLine("buscando la matricula:{0} ... ",matricula)
+		For Each alumno As clsAlumno In Me.listaAlumnos
+			If alumno.matricula=matricula Then
+				Console.WriteLine("Matricula encontrada, el nombre es:" & alumno.nombre &" edad:" & alumno.edad)
+				esta=True
+			End If
+		Next
+		If Not esta Then
+			Console.WriteLine("El alumno no se encuentra")
+		End If
+		Return esta
+	End Function
 End Class
