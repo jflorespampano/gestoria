@@ -6,8 +6,4 @@ Este es un jemplo de una aplicación de control de materias, horarios y grupos e
 este ejemplo es una base para realizar tareas, no es totalmente funcional.
 
 ### Esta rama es la rama base para las siguientes tareas: 
-```
--agregar alumnos a la carrera, 
--listarlos y 
--buscar alumno
-```
+
